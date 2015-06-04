@@ -1,9 +1,9 @@
 payment = Paymill::Payment.create(token: '098f6bcd4621d373cade4e832627b4f6')
 offer = Paymill::Offer.create(
     amount: 3333,
-    currency: 'EUR',
-    interval: '1 WEEK',
-    name: 'Nerd Special',
+    currency: 'USD',
+    interval: '2 WEEK',
+    name: 'Offer Name',
     trial_period_days: 30
     )
 
